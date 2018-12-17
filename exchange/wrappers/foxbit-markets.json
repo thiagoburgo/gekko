@@ -1,0 +1,34 @@
+{
+  "assets": [
+    "BTC",
+    "LTC",
+    "ETH"
+  ],
+  "currencies": [
+    "BRL",
+    "BTC"
+  ],
+  "markets": [
+    {
+      "pair": ["BRL", "BTC"],
+      "minimalOrder": {
+        "amount": 0.0001,
+        "unit": "asset"
+      }
+    },
+    {
+      "pair": ["BRL", "LTC"],
+      "minimalOrder": {
+        "amount": 0.02,
+        "unit": "asset"
+      }
+    },
+    {
+      "pair": ["BRL", "ETH"],
+      "minimalOrder": {
+        "amount": 0.005,
+        "unit": "asset"
+      }
+    }
+  ]
+}
